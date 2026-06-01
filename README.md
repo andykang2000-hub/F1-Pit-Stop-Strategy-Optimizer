@@ -133,19 +133,6 @@ f1-strategy-optimizer/
 
 ---
 
-## Portfolio Context
-
-This is **Project 4** of a 5-project F1 data science portfolio:
-
-| # | Project | Skills | Genuine Value-Add |
-|---|---------|--------|-------------------|
-| ✅ 1 | [Telemetry Analysis](https://github.com/YOUR_USERNAME/f1-telemetry-analysis) | FastF1, matplotlib | Public corner-by-corner breakdown |
-| ✅ 2 | [Circuit Dominance Map](https://github.com/YOUR_USERNAME/f1-dominance-map) | Geospatial, multi-driver | PER paradox quantified |
-| ✅ 3 | [Tire Classifier](https://github.com/YOUR_USERNAME/f1-tyre-classifier) | ML, synthetic data | Rival stint life predictor |
-| ✅ 4 | Strategy Optimizer (this) | Optimization, simulation | Undercut threat quantification |
-| 5 | Qualifying Lap Predictor | Regression, feature engineering | TBD |
-
----
 
 ## Data Source
 
