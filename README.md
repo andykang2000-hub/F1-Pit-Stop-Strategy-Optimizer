@@ -17,24 +17,6 @@ A third component analyses **wet weather strategy** across three races, with hon
 
 ---
 
-## Critical Self-Evaluation
-
-Three questions were asked before building each component:
-
-### Dry Optimizer
-**Is the cause-effect right?** Yes — tire degradation physics are well-understood and the degradation cliff model matches observed F1 behavior.
-
-**Is this meaningful?** Partially. The optimizer correctly identifies the general pit window but ignores undercut/overcut dynamics, which are often the primary strategic driver. This project addresses that gap with the undercut model.
-
-**How is it different from what teams have?** Teams have far more sophisticated versions. Our genuine contribution is making the optimization **transparent and explainable** — showing *why* a pit window is optimal, with a publicly reproducible method. The undercut model adds genuine value by quantifying opportunities that are invisible from standard timing screens.
-
-### Weather Model
-**Is the cause-effect right?** Partially — and this is documented honestly. Humidity and track temperature are *consequences* of rain, not predictors. The model detects rain conditions rather than forecasting them. True forecasting would require atmospheric pressure trends and radar data not available in FastF1.
-
-**Hungarian GP failure** is documented as a key finding: diurnal cooling (natural day-night temperature drop) produces the same humidity/temperature pattern as rainfall, making the two indistinguishable without multi-race training data. This is a genuine ML insight, not a bug to hide.
-
----
-
 ## Results
 
 ### Dry Strategy Optimizer
