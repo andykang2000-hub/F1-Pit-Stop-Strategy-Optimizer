@@ -66,7 +66,7 @@ The model shows 1-stop is 24s faster in pure pace terms. But all teams chose 2-s
 3. **Safety car risk**: a longer stint increases exposure to a VSC/SC that erases the pace advantage
 
 ### Weather Model — Honest Assessment
-The real-time model achieves F1=0.974 on training (Russian GP) and F1=1.000 on Japanese GP validation — but **Hungarian GP fails (F1=0.000)**. This is not a model bug. Hungary's evening cooling produced identical humidity/temperature patterns to rainfall. The `TrackAirGap` feature partially addresses this but cannot fully resolve it without multi-race training data.
+The real-time model achieves F1=0.974 on training (Russian GP) and F1=1.000 on Japanese GP validation — but **Hungarian GP fails (F1=0.000)**. This happens because Hungary's evening cooling produced identical humidity/temperature patterns to rainfall. The `TrackAirGap` feature partially addresses this but cannot fully resolve it without multi-race training data.
 
 **The model is best described as a wet condition severity classifier, not a forecast tool.** It quantifies *how wet* conditions currently are, and whether they're getting better or worse — directly useful for the decision of whether to switch from INTERMEDIATE to WET compound.
 
